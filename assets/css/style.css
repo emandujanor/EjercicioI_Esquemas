@@ -1,3 +1,47 @@
 body{
   background-color: grey;
 }
+.cuerpo{
+  margin: 30px auto 0 auto;
+
+}
+.base{
+  width:200px;
+  height:200px;
+  margin: 35px auto 0px auto;
+}
+.medio{
+  width:100px;
+  height:100px;
+  position:relative;
+  left:50px;
+  top:50px;
+}
+.chico{
+  width:50px;
+  height:50px;
+}
+
+.baseArriba{
+  background-color: red;
+}
+.medioArriba{
+  background-color: purple;
+
+}
+.chicoArriba{
+  background-color: yellow;
+
+}
+.baseAbajo{
+  background-color: blue;
+}
+.medioAbajo{
+  background-color: green;
+}
+.chicoAbajo{
+  background-color: black;
+  position: absolute;
+  top:-50px;
+  left:-50px;
+}
